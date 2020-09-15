@@ -1,6 +1,6 @@
 import os
 import shutil
-for folderName,subFolders, filenames in os.walk('C:/Users/addison/Documents/MainFolder'):
+for folderName,subFolders, filenames in os.walk('insertFile'):
     for i in filenames:
         stringfile = str(i[0:-4])
         newstringfile = ''
